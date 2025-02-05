@@ -1,12 +1,25 @@
-# Real-time Health Monitoring System using ESP32 & Python Visualization  
+# 🏥 Arsatech-Vital-Tracker  
+### **Real-time Health Monitoring System using ESP32 & Python Visualization**  
 
-💡 **Internship Project at Arsatechnology**  
+🚀 Developed during an **internship at Arsatechnology**, this system enables **real-time biometric data monitoring** using an **ESP32 Wroom DA**. It seamlessly integrates hardware and software to track vital health parameters with live visualization.  
 
-This project is a real-time health monitoring system that captures and visualizes biometric sensor data using the **ESP32 Wroom DA**. Designed for efficiency and accuracy, it seamlessly integrates hardware and software for continuous health tracking.  
+## 📌 **Features**  
+✅ **Body & Ambient Temperature Monitoring**  
+- Uses **MLX90614** to measure object & ambient temperature (**0-100°C**).  
 
-### 🔧 **Key Features:**  
-✅ **ESP32 (Arduino IDE):** Reads biometric sensor data and transmits it via serial communication.  
-✅ **Python Visualization:** Processes incoming data and dynamically displays it using **Matplotlib** for a professional, medical-style live graph.  
-✅ **Real-time Monitoring:** Ensures smooth and responsive updates for an interactive user experience.  
+✅ **Heart Rate & SpO₂ Tracking**  
+- Uses **MAX30102** to detect heart rate (**40-180 BPM**) and oxygen saturation (**80-100%**).  
 
-🚀 **Perfect for IoT health applications, biomedical research, and smart monitoring solutions!**
+✅ **Object Detection**  
+- Uses **TCRT5000** to detect object presence (**0 = No object, 1 = Object detected**).  
+
+✅ **Real-Time Medical Graph Visualization**  
+- Displays sensor data dynamically using **Matplotlib in Python**.  
+
+## 🛠️ **Hardware Requirements**  
+- **ESP32 Wroom DA**  
+- **MLX90614 (Infrared Temperature Sensor)**  
+- **MAX30102 (Pulse Oximeter & Heart Rate Sensor)**  
+- **TCRT5000 (Object Detection Sensor)**  
+
+🚀 **Designed for IoT-based health applications, biomedical research, and real-time monitoring solutions!**  
